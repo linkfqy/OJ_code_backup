@@ -42,8 +42,6 @@ void FFT(comp *a,int n,int d){
 }
 #define C2(x) ((ll)x*(x-1)/2)
 int main(){
-	freopen("test.in","r",stdin);
-	freopen("test.out","w",stdout);
 	tst=red();
 	N=1;while (N<=2e5) N<<=1;
 	get_rev(N);
