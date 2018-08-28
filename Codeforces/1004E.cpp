@@ -13,7 +13,6 @@ struct data{
 };
 set<data> d[maxn],S;
 int main(){
-	freopen("e.in","r",stdin);
 	scanf("%d%d",&n,&K);
 	for (int i=1,x,y,z;i<n;i++)
 	 scanf("%d%d%d",&x,&y,&z),
